@@ -1,0 +1,845 @@
+1) Write a program to print the factorial of every digit in the number, do not consider a digit if it is repeated.
+
+// input: 335645
+// output: 6 120 720 24 
+
+ 
+// const input=require("prompt-sync")();
+// let num=input("enter a number");
+// let str="";
+// let s="";
+// let sum=1;
+// for(let i=0;i<num.length;i++){
+//    if(str.indexOf(num[i])===-1){
+//       str=str+num[i];
+//     }
+// }
+// console.log(str);
+// for(n of str){
+//    if(n){
+//       sum=1;
+//       for(j=1;j<=n;j++){
+//        sum=sum*Number(j)
+
+//       }
+//       s=s+sum+" ";
+//    }
+  
+// }
+// console.log(s)
+
+
+
+// 2) Write a program to print the factorial of a number in the below format.
+// input: 5
+// output:
+// 1*2*3*4*5=120
+// input:3
+// 1*2*3=6
+// const input=require("prompt-sync")();
+// let num=input("enter a number");
+// let sum=1;
+// let s="";
+
+// for( let i=1;i<=num;i++){
+//  if(i==num){
+//    s+=i+"="
+//  }
+//  else{
+//    s+=i+"*"
+
+//  }
+//    sum=sum*Number(i)
+   
+// }
+// console.log(`${s} ${sum}`)
+
+// 3) Write a program to print the sum of prime numbers in the fibonacci series.
+// input: 10
+// output: 23 (0 1 1 2 3 5 8 13 21 34)
+// const input=require("prompt-sync")();
+// let num=input("enter a number");
+// n1=0;
+// n2=1;
+// let i=1;
+
+
+// let s="";
+// while(i<=num){
+//    s=s+n1+" ";
+//    n3=n1+n2;
+//    n1=n2;
+//    n2=n3;
+//    i++
+   
+// }
+// console.log(s);
+// let arr;
+// arr=s.split(" ")
+// let sum=0;
+// for(n of arr){
+//    if(n>1){
+//       c=0;
+//       for(i=2;i<n;i++){
+//          if(n%i==0){
+//             c++;
+//             break;
+//          }
+//       }
+//       if(c==0)
+//          sum+=Number(n)
+      
+//    }
+// }
+// console.log(sum)
+
+
+// 4) Write a program to find the nearest prime to the given number.
+// input: 5
+// Null
+// input: 10
+// 11
+// const input=require("prompt-sync")();
+// let num=input("enter a number ="); 
+// let a=num;
+// let b=num;
+// let c=0;
+// while(true){
+//    a=++a;
+//    let c=0;
+//    for(i=2;i<a;i++){
+//       c=0;
+//       if(a%i==0){
+//          c++
+//          break;
+//       }
+// }
+// if(c==0){
+//    break;
+// }
+// }
+// let str=0;
+//  str=a-num;
+//  console.log("a=",a);
+ 
+//  while(true){
+//    c=0;
+//    b=--b;
+//    for(i=2;i<b;i++){
+//       c=0;
+//       if(b%i==0){
+//          c++;
+//          break;
+//       }
+//    }
+//    if(c==0){
+//    break;
+// }
+// }
+//  let str1=0;
+//  str1=num-b;
+
+//  (str==str1)?console.log(null):(str>str1)?console.log(`nearest prime number of ${num} is ${b}`):console.log(`nearest prime number of ${num} is ${a}`)
+
+
+   
+   
+
+
+
+
+
+
+
+
+
+    
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1) Write a program to print the factorial of every digit in the number, do not consider a digit if it is repeated.
+
+// input: 335645
+// output: 6 120 720 24 
+
+ 
+// const input=require("prompt-sync")();
+// let num=input("enter a number");
+// let str="";
+// let s="";
+// let sum=1;
+// for(let i=0;i<num.length;i++){
+//    if(str.indexOf(num[i])===-1){
+//       str=str+num[i];
+//     }
+// }
+// console.log(str);
+// for(n of str){
+//    if(n){
+//       sum=1;
+//       for(j=1;j<=n;j++){
+//        sum=sum*Number(j)
+
+//       }
+//       s=s+sum+" ";
+//    }
+  
+// }
+// console.log(s)
+
+
+
+// 2) Write a program to print the factorial of a number in the below format.
+// input: 5
+// output:
+// 1*2*3*4*5=120
+// input:3
+// 1*2*3=6
+// const input=require("prompt-sync")();
+// let num=input("enter a number");
+// let sum=1;
+// let s="";
+
+// for( let i=1;i<=num;i++){
+//  if(i==num){
+//    s+=i+"="
+//  }
+//  else{
+//    s+=i+"*"
+
+//  }
+//    sum=sum*Number(i)
+   
+// }
+// console.log(`${s} ${sum}`)
+
+// 3) Write a program to print the sum of prime numbers in the fibonacci series.
+// input: 10
+// output: 23 (0 1 1 2 3 5 8 13 21 34)
+// const input=require("prompt-sync")();
+// let num=input("enter a number");
+// n1=0;
+// n2=1;
+// let i=1;
+
+
+// let s="";
+// while(i<=num){
+//    s=s+n1+" ";
+//    n3=n1+n2;
+//    n1=n2;
+//    n2=n3;
+//    i++
+   
+// }
+// console.log(s);
+// let arr;
+// arr=s.split(" ")
+// let sum=0;
+// for(n of arr){
+//    if(n>1){
+//       c=0;
+//       for(i=2;i<n;i++){
+//          if(n%i==0){
+//             c++;
+//             break;
+//          }
+//       }
+//       if(c==0)
+//          sum+=Number(n)
+      
+//    }
+// }
+// console.log(sum)
+
+
+// 4) Write a program to find the nearest prime to the given number.
+// input: 5
+// Null
+// input: 10
+// 11
+// const input=require("prompt-sync")();
+// let num=input("enter a number ="); 
+// let a=num;
+// let b=num;
+// let c=0;
+// while(true){
+//    a=++a;
+//    let c=0;
+//    for(i=2;i<a;i++){
+//       c=0;
+//       if(a%i==0){
+//          c++
+//          break;
+//       }
+// }
+// if(c==0){
+//    break;
+// }
+// }
+// let str=0;
+//  str=a-num;
+//  console.log("a=",a);
+ 
+//  while(true){
+//    c=0;
+//    b=--b;
+//    for(i=2;i<b;i++){
+//       c=0;
+//       if(b%i==0){
+//          c++;
+//          break;
+//       }
+//    }
+//    if(c==0){
+//    break;
+// }
+// }
+//  let str1=0;
+//  str1=num-b;
+
+//  (str==str1)?console.log(null):(str>str1)?console.log(`nearest prime number of ${num} is ${b}`):console.log(`nearest prime number of ${num} is ${a}`)
+
+
+   
+   
+
+
+
+
+
+
+
+1) Write a program to print the factorial of every digit in the number, do not consider a digit if it is repeated.
+
+// input: 335645
+// output: 6 120 720 24 
+
+ 
+// const input=require("prompt-sync")();
+// let num=input("enter a number");
+// let str="";
+// let s="";
+// let sum=1;
+// for(let i=0;i<num.length;i++){
+//    if(str.indexOf(num[i])===-1){
+//       str=str+num[i];
+//     }
+// }
+// console.log(str);
+// for(n of str){
+//    if(n){
+//       sum=1;
+//       for(j=1;j<=n;j++){
+//        sum=sum*Number(j)
+
+//       }
+//       s=s+sum+" ";
+//    }
+  
+// }
+// console.log(s)
+
+
+
+// 2) Write a program to print the factorial of a number in the below format.
+// input: 5
+// output:
+// 1*2*3*4*5=120
+// input:3
+// 1*2*3=6
+// const input=require("prompt-sync")();
+// let num=input("enter a number");
+// let sum=1;
+// let s="";
+
+// for( let i=1;i<=num;i++){
+//  if(i==num){
+//    s+=i+"="
+//  }
+//  else{
+//    s+=i+"*"
+
+//  }
+//    sum=sum*Number(i)
+   
+// }
+// console.log(`${s} ${sum}`)
+
+// 3) Write a program to print the sum of prime numbers in the fibonacci series.
+// input: 10
+// output: 23 (0 1 1 2 3 5 8 13 21 34)
+// const input=require("prompt-sync")();
+// let num=input("enter a number");
+// n1=0;
+// n2=1;
+// let i=1;
+
+
+// let s="";
+// while(i<=num){
+//    s=s+n1+" ";
+//    n3=n1+n2;
+//    n1=n2;
+//    n2=n3;
+//    i++
+   
+// }
+// console.log(s);
+// let arr;
+// arr=s.split(" ")
+// let sum=0;
+// for(n of arr){
+//    if(n>1){
+//       c=0;
+//       for(i=2;i<n;i++){
+//          if(n%i==0){
+//             c++;
+//             break;
+//          }
+//       }
+//       if(c==0)
+//          sum+=Number(n)
+      
+//    }
+// }
+// console.log(sum)
+
+
+// 4) Write a program to find the nearest prime to the given number.
+// input: 5
+// Null
+// input: 10
+// 11
+// const input=require("prompt-sync")();
+// let num=input("enter a number ="); 
+// let a=num;
+// let b=num;
+// let c=0;
+// while(true){
+//    a=++a;
+//    let c=0;
+//    for(i=2;i<a;i++){
+//       c=0;
+//       if(a%i==0){
+//          c++
+//          break;
+//       }
+// }
+// if(c==0){
+//    break;
+// }
+// }
+// let str=0;
+//  str=a-num;
+//  console.log("a=",a);
+ 
+//  while(true){
+//    c=0;
+//    b=--b;
+//    for(i=2;i<b;i++){
+//       c=0;
+//       if(b%i==0){
+//          c++;
+//          break;
+//       }
+//    }
+//    if(c==0){
+//    break;
+// }
+// }
+//  let str1=0;
+//  str1=num-b;
+
+//  (str==str1)?console.log(null):(str>str1)?console.log(`nearest prime number of ${num} is ${b}`):console.log(`nearest prime number of ${num} is ${a}`)
+
+
+   
+   
+
+
+
+
+
+
+
+
+
+    
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1) Write a program to print the factorial of every digit in the number, do not consider a digit if it is repeated.
+
+// input: 335645
+// output: 6 120 720 24 
+
+ 
+// const input=require("prompt-sync")();
+// let num=input("enter a number");
+// let str="";
+// let s="";
+// let sum=1;
+// for(let i=0;i<num.length;i++){
+//    if(str.indexOf(num[i])===-1){
+//       str=str+num[i];
+//     }
+// }
+// console.log(str);
+// for(n of str){
+//    if(n){
+//       sum=1;
+//       for(j=1;j<=n;j++){
+//        sum=sum*Number(j)
+
+//       }
+//       s=s+sum+" ";
+//    }
+  
+// }
+// console.log(s)
+
+
+
+// 2) Write a program to print the factorial of a number in the below format.
+// input: 5
+// output:
+// 1*2*3*4*5=120
+// input:3
+// 1*2*3=6
+// const input=require("prompt-sync")();
+// let num=input("enter a number");
+// let sum=1;
+// let s="";
+
+// for( let i=1;i<=num;i++){
+//  if(i==num){
+//    s+=i+"="
+//  }
+//  else{
+//    s+=i+"*"
+
+//  }
+//    sum=sum*Number(i)
+   
+// }
+// console.log(`${s} ${sum}`)
+
+// 3) Write a program to print the sum of prime numbers in the fibonacci series.
+// input: 10
+// output: 23 (0 1 1 2 3 5 8 13 21 34)
+// const input=require("prompt-sync")();
+// let num=input("enter a number");
+// n1=0;
+// n2=1;
+// let i=1;
+
+
+// let s="";
+// while(i<=num){
+//    s=s+n1+" ";
+//    n3=n1+n2;
+//    n1=n2;
+//    n2=n3;
+//    i++
+   
+// }
+// console.log(s);
+// let arr;
+// arr=s.split(" ")
+// let sum=0;
+// for(n of arr){
+//    if(n>1){
+//       c=0;
+//       for(i=2;i<n;i++){
+//          if(n%i==0){
+//             c++;
+//             break;
+//          }
+//       }
+//       if(c==0)
+//          sum+=Number(n)
+      
+//    }
+// }
+// console.log(sum)
+
+
+// 4) Write a program to find the nearest prime to the given number.
+// input: 5
+// Null
+// input: 10
+// 11
+// const input=require("prompt-sync")();
+// let num=input("enter a number ="); 
+// let a=num;
+// let b=num;
+// let c=0;
+// while(true){
+//    a=++a;
+//    let c=0;
+//    for(i=2;i<a;i++){
+//       c=0;
+//       if(a%i==0){
+//          c++
+//          break;
+//       }
+// }
+// if(c==0){
+//    break;
+// }
+// }
+// let str=0;
+//  str=a-num;
+//  console.log("a=",a);
+ 
+//  while(true){
+//    c=0;
+//    b=--b;
+//    for(i=2;i<b;i++){
+//       c=0;
+//       if(b%i==0){
+//          c++;
+//          break;
+//       }
+//    }
+//    if(c==0){
+//    break;
+// }
+// }
+//  let str1=0;
+//  str1=num-b;
+
+//  (str==str1)?console.log(null):(str>str1)?console.log(`nearest prime number of ${num} is ${b}`):console.log(`nearest prime number of ${num} is ${a}`)
+
+
+   
+   
+
+
+
+
+
+
+
+
+
+    
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1) Write a program to print the factorial of every digit in the number, do not consider a digit if it is repeated.
+
+// input: 335645
+// output: 6 120 720 24 
+
+ 
+// const input=require("prompt-sync")();
+// let num=input("enter a number");
+// let str="";
+// let s="";
+// let sum=1;
+// for(let i=0;i<num.length;i++){
+//    if(str.indexOf(num[i])===-1){
+//       str=str+num[i];
+//     }
+// }
+// console.log(str);
+// for(n of str){
+//    if(n){
+//       sum=1;
+//       for(j=1;j<=n;j++){
+//        sum=sum*Number(j)
+
+//       }
+//       s=s+sum+" ";
+//    }
+  
+// }
+// console.log(s)
+
+
+
+// 2) Write a program to print the factorial of a number in the below format.
+// input: 5
+// output:
+// 1*2*3*4*5=120
+// input:3
+// 1*2*3=6
+// const input=require("prompt-sync")();
+// let num=input("enter a number");
+// let sum=1;
+// let s="";
+
+// for( let i=1;i<=num;i++){
+//  if(i==num){
+//    s+=i+"="
+//  }
+//  else{
+//    s+=i+"*"
+
+//  }
+//    sum=sum*Number(i)
+   
+// }
+// console.log(`${s} ${sum}`)
+
+// 3) Write a program to print the sum of prime numbers in the fibonacci series.
+// input: 10
+// output: 23 (0 1 1 2 3 5 8 13 21 34)
+// const input=require("prompt-sync")();
+// let num=input("enter a number");
+// n1=0;
+// n2=1;
+// let i=1;
+
+
+// let s="";
+// while(i<=num){
+//    s=s+n1+" ";
+//    n3=n1+n2;
+//    n1=n2;
+//    n2=n3;
+//    i++
+   
+// }
+// console.log(s);
+// let arr;
+// arr=s.split(" ")
+// let sum=0;
+// for(n of arr){
+//    if(n>1){
+//       c=0;
+//       for(i=2;i<n;i++){
+//          if(n%i==0){
+//             c++;
+//             break;
+//          }
+//       }
+//       if(c==0)
+//          sum+=Number(n)
+      
+//    }
+// }
+// console.log(sum)
+
+
+// 4) Write a program to find the nearest prime to the given number.
+// input: 5
+// Null
+// input: 10
+// 11
+// const input=require("prompt-sync")();
+// let num=input("enter a number ="); 
+// let a=num;
+// let b=num;
+// let c=0;
+// while(true){
+//    a=++a;
+//    let c=0;
+//    for(i=2;i<a;i++){
+//       c=0;
+//       if(a%i==0){
+//          c++
+//          break;
+//       }
+// }
+// if(c==0){
+//    break;
+// }
+// }
+// let str=0;
+//  str=a-num;
+//  console.log("a=",a);
+ 
+//  while(true){
+//    c=0;
+//    b=--b;
+//    for(i=2;i<b;i++){
+//       c=0;
+//       if(b%i==0){
+//          c++;
+//          break;
+//       }
+//    }
+//    if(c==0){
+//    break;
+// }
+// }
+//  let str1=0;
+//  str1=num-b;
+
+//  (str==str1)?console.log(null):(str>str1)?console.log(`nearest prime number of ${num} is ${b}`):console.log(`nearest prime number of ${num} is ${a}`)
+
+
+   
+   
+
+
+
+
+
+
+
+
+
+    
+   
+
+
+
+
+
+
+    
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
